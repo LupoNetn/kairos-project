@@ -6,6 +6,7 @@ import {
   FaCloud,
   FaCodeBranch,
 } from "react-icons/fa";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -26,6 +27,11 @@ const Hero = () => {
         intensive programming contest designed to foster continuous learning and
         project development
       </p>
+      <div className="flex sm:m-12 max-sm:m-8">
+        <div>
+          <Button hoverColor='bg-black' hoverText='text-white'>Join Us</Button>
+        </div>
+      </div>
     </div>
   );
 };

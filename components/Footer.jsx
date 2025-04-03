@@ -12,7 +12,7 @@ const Footer = () => {
         <FaRocket className="absolute bottom-1/3 right-1/4 text-6xl md:text-7xl lg:text-8xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 max-xl:p-10 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="text-center md:text-left">
