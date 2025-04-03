@@ -48,7 +48,7 @@ const Features = () => {
       <h2 className="text-5xl text-gray-800 text-center mb-12 max-sm:text-3xl">
         How it Works
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto p-6 max-sm:px-2">
         {featuresData.map((feature) => (
           <div
             key={feature.id}
