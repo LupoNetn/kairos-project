@@ -1,3 +1,4 @@
+import Features from '@/components/Features';
 import Hero from '@/components/Hero';
 import React from 'react'
 
@@ -6,6 +7,9 @@ const Home = () => {
     <div>
       <section>
         <Hero />
+      </section>
+      <section>
+        <Features />
       </section>
     </div>
   )
